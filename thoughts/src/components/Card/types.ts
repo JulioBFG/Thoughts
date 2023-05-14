@@ -1,7 +1,6 @@
-import { ReactElement } from "react";
 
 export interface CardProps {
-    title : 'string',
-    description : 'string',
-    buttonContent : ReactElement
+    title?: string,
+    description?: string,
+    onButtonClick:  React.MouseEventHandler<HTMLButtonElement>
 }

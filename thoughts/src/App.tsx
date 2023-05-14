@@ -1,14 +1,10 @@
 import "./App.css";
+import MainPage from "./pages/Main/Main";
 
 function App() {
   return (
     <>
-      <button className="btn">Button</button>
-      <textarea
-        className="textarea textarea-bordered"
-        placeholder="Bio"
-      ></textarea>
-     
+      <MainPage/>
     </>
   );
 }
