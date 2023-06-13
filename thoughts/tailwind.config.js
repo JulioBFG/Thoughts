@@ -7,5 +7,9 @@ export default {
   theme: {
     extend: {},
   },
+  daisyui: {
+    themes:["business"],
+  },
+  // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],
 }

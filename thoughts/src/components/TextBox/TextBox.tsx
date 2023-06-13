@@ -1,7 +1,7 @@
 const TextBox = () => {
   return (
     <textarea
-      className="textarea textarea-bordered"
+      className="textarea textarea-bordered rounded-md"
       placeholder="Bio"
     ></textarea>
   );

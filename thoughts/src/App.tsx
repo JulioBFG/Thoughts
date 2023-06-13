@@ -1,13 +1,10 @@
 import "./App.css";
+import Card from "./components/Card/Card";
 
 function App() {
   return (
     <>
-      <button className="btn">Button</button>
-      <textarea
-        className="textarea textarea-bordered"
-        placeholder="Bio"
-      ></textarea>
+      <Card />
      
     </>
   );
